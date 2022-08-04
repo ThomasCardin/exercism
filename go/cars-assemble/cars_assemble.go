@@ -1,12 +1,5 @@
 package cars
 
-/*
-	Note to self: Toujours convertir la variable
-	vers la valeur la plus grosse. Exemple: int < float < double etc..
-	Donc, si j'ai un parametre qui est un int et une autre qui est un float
-	dans la meme fonction. Je dois convertir le int en float
-*/
-
 // CalculateWorkingCarsPerHour calculates how many working cars are
 // produced by the assembly line every hour.
 func CalculateWorkingCarsPerHour(productionRate int, successRate float64) float64 {
