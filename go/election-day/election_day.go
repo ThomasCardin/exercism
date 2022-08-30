@@ -34,8 +34,7 @@ func NewElectionResult(candidateName string, votes int) *ElectionResult {
 
 // DisplayResult creates a message with the result to be displayed.
 func DisplayResult(result *ElectionResult) string {
-	value := fmt.Sprintf("%s (%s)", result.Name, strconv.Itoa(result.Votes))
-	return value
+	return fmt.Sprintf("%s (%s)", result.Name, strconv.Itoa(result.Votes))
 }
 
 // DecrementVotesOfCandidate decrements by one the vote count of a candidate in a map.
